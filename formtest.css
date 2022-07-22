@@ -1,0 +1,516 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* =============== BEGIN =============== */
+
+
+/* ===== CLASS TEXTE = TOUT LE BODY SAUF FOOTER ==== */
+
+.texteuh
+{
+    width: 100%;
+    height: 70vh;
+    background-color: #f6f6f6;
+}
+
+
+
+.deuxieme
+{
+    display: flex;
+    justify-content: center;
+    /* couleur à mettre en fond blanc nacré */
+    height: 15em;
+    width: 60%;
+    margin-left: 25%;
+    margin-top: -5%;
+    background-color: ;
+    /* border-top: blueviolet solid ;
+    padding-top: 3em; */
+}
+
+
+
+.logo
+{
+    width: 15em;
+    height: 10em;
+}
+
+.limage
+{
+    height: 8vh;
+    width: 8vh;
+}
+
+.tel
+{
+    text-decoration: none;
+    color: blueviolet;
+}
+.mail
+{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+
+
+
+.limageu
+{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    height: 5em;
+    width: 100%;
+}
+
+.leszommes
+{
+    display: flex;
+    /* flex-direction: row; */
+    /* height: 5em;
+    width: 250em; */
+    /* background-color: red; */
+    margin-top: 8em;
+    width: 70em;
+    /* margin-left: 50%; */
+
+}
+
+.leszommesun
+{
+    display: flex;
+    justify-content: end;
+    /* background-color: green; */
+    /* width: 50%;
+    max-height: 50%; */
+    width: 55%;
+    margin-right: 2em;
+    /* line-height: 1.4em; */
+}
+/* .espaceservice
+{
+    line-height: 40px;
+} */
+
+.contact
+{
+    line-height: 1.8em;
+}
+
+.leszommesdeux
+{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 60%;   
+
+}
+
+.listeservices
+{
+    line-height: 1.8em;
+}
+
+.partone
+{
+    /* display: flex;
+    justify-content: center;
+    height: 8em;
+    width: 12em; */
+    /* display: flex;
+    margin: 0.1em 5em  ;
+    padding: 0.1em;
+    background-color: red; */
+    /* height: 100%;
+    width: 100%; */
+    /* margin-top: 50% ;
+    margin-left: 450%; */
+}
+
+.parttwo
+{
+    /* /* display: flex;
+    justify-content: center;
+    height: 0.9em;
+    width: 12em; */
+    /* background-color: red;
+    display: flex;
+    margin: ; */
+    /* margin-left: 10%; */
+    /* margin-top: -90%;
+    margin-left: 600%; */ 
+}
+
+
+
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(lato/Lato-Bold.ttf);
+}
+
+/* ===== COULEUR BLUEVIOLET #8a2ce2d9 ===== */
+
+/* ======== TESTS FORMULAIRE ========== */
+
+
+/* .formulaire
+{
+    background-color: aqua;
+    margin-left: 40%;
+    width: 600px;
+    min-height: 2000px;
+
+} */
+
+/* =================================================================== */
+                /* FORMULAIRE MODELE MODIFIEE */
+.form 
+{
+    background-color: blueviolet;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 140%;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+    /* font-family: Lato-Bold; */
+  }
+
+  .titleuh {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 0px;
+    font-weight: 0;
+    margin-top: 0px;
+  }
+
+  .subtitleuh {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 0px;
+    font-weight: 0;
+    margin-top: 0px;
+  }
+  
+  .input-container {
+    height: 14%;
+    position: relative;
+    width: 100%;
+    border-color: red;
+  }
+  
+  .ic1 {
+    margin-top: 30px;
+    height: 50%;
+    border-color: red;
+  }
+
+  .ic2 {
+    margin-top: 20px;
+  }
+  
+  .inputeuh {
+    background-color: rgb(67, 54, 80);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 30px 20px ;
+    width: 100%;
+  }
+
+.trucmuche
+/* POUR MODIFIER LE TEXTAREA MESSAGE */
+{
+    background-color: rgb(67, 54, 80);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.trucmuche:focus ~ .cut,
+.trucmuche:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.trucmuche:focus ~ .placeholder,
+.trucmuche:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+  opacity: 0;
+}
+
+.trucmuche:not(:placeholder-shown) ~ .placeholder {
+  color: #d61d1d;
+}
+
+.trucmuche:focus ~ .placeholder {
+  color: #dc2f55;
+}
+
+
+  .cut-short {
+    width: 50px;
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+    color: #ffffff;
+    font-family: Lato-bold;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+  }
+  
+
+  .inputeuh:focus ~ .placeholder,
+  .inputeuh:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+    opacity: 0;
+  }
+  
+  .inputeuh:not(:placeholder-shown) ~ .placeholder {
+    color: #ffffff;
+  }
+  
+  .inputeuh:focus ~ .placeholder {
+    color: #dc2f55;
+  }
+  
+  .submit {
+    background-color: #61219c;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 18px;
+    /* height: 50px; */
+    height: 10%;
+    margin-top: 10px;
+    // outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit:active { 
+    background-color: rgb(255, 255, 255);
+  }
+
+    
+    /* CHANGER COULEUR POLICE DU FORMULAIRE  */
+#email
+{
+    color: white;
+    border-color: blueviolet;
+}
+
+#lastname
+{
+    color: white;
+    border-color: white;
+}
+
+#textavantform
+{
+    /* border-top: solid blueviolet; */
+    margin-right: 45%;
+}
+
+textarea
+{
+    border-color: red ;
+}
+
+  /* POUR MODIFIER ELEMENTS A DIFFERENTES RESOLUTIONS */
+  /* SMARTPHONES EN GENERAL (IPHONE SAMSUNG GOOGLE PIXEL ETC) (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+{
+    body {
+        background-color: ;
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    .form
+    {
+        margin-top: 40%;
+    }
+
+    footer
+    {
+        display: flex;
+        justify-content: center;
+        height: 30.7vh;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .leszommes
+    {
+        display: flex;
+        /* flex-direction: row; */
+        /* height: 5em;
+        width: 250em; */
+        /* background-color: red; */
+        margin-top: 6em;
+        margin-left: 10%;
+        width: 70em;
+        /* margin-left: 50%; */
+    }
+
+    .form 
+    {
+        background-color: rgb(84, 6, 158);
+        border-radius: 20px;
+        box-sizing: border-box;
+        height: 140%;
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+        /* font-family: Lato-Bold; */
+    }
+    .deuxieme
+    {
+        display: flex;
+        justify-content: center;
+        background-color: blueviolet;
+        height: 15em;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: -5%;
+    }
+
+}
+
+/* IPADS (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+
+    body 
+    {
+        background-color: ;
+        font-size: 1.2em;
+        line-height: 1.5em;
+    }
+    
+    .premieer
+    {
+        /* display: flex;
+        justify-content: center; */
+        margin-top: 0em;
+        margin-bottom: 0em;
+        /* background-color: red; */
+    }
+
+    .form
+    {
+        background-color: rgb(84, 6, 158);
+        border-radius: 20px;
+        box-sizing: border-box;
+        height: 120%;
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+        /* font-family: Lato-Bold; */
+    }
+
+    footer
+    {
+        display: flex;
+        justify-content: center;
+        height: 30.7vh;
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .deuxieme
+    {
+        display: flex;
+        justify-content: center;
+        background-color: blueviolet;
+        height: 15em;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: -5%;
+    }
+
+    .leszommes
+    {
+        display: flex;
+        /* flex-direction: row; */
+        /* height: 5em;
+        width: 250em; */
+        /* background-color: red; */
+        margin-top: 6em;
+        margin-left: 10%;
+        width: 70em;
+        font-size: 0.9em;
+        /* margin-left: 50%; */
+    }
+
+}
+
+
+

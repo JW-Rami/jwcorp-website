@@ -1,0 +1,434 @@
+﻿<!doctype html>
+<html>
+<head>
+<!-- Basic Page Needs
+    ================================================== -->
+<meta charset="utf-8">
+<!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JW Corp - Blockchain Solutions</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<!-- Icon Navigateur -->
+<link rel="icon" type="img/png" href="logo-flocon-jw.png">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="img/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+
+    <!-- FORMULAIRE LIEN CSS -->
+    <link rel="stylesheet" href="formtest.css">
+
+    <!-- FORMULAIRE BRILLANCE -->
+    <link rel="stylesheet" href="nouveauformulaire.css">
+
+    <!-- typed.js -->
+    <script src="npm/typed.js%402.0.12"></script>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+
+<!-- Slider
+    ================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+<link href="css/animate.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='css-1?family=PT+Serif:400,400i,700|Montserrat:100,200,300,300i,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+<section class="toutlindex">
+
+<!-- Navigation
+    ==========================================-->
+
+<nav id="top-menu" class="navbar navbar-default navbar-fixed-top bonsoirheader">
+  <div class="container"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <!-- <button type="button" class="navbar-toggle collapsed"  data-target="#bs-example-navbar-collapse-1">
+         <span class="icon-bar"></span> 
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button> -->
+      <a class="navbar-brand" href="index.php.html"><img src="img/jwlogosolutionblanc.svg" class="img-responsive"></a> </div>
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
+   
+      <!--nav icon--> 
+      <a id="nav-icon"> <span></span> <span></span> <span></span> </a> 
+      <!--nav icon end-->
+
+      <ul id="nav-top" class="nav navbar-nav navbar-right nav-top">
+        <li><a href="index.php.html" class="page-scroll">Accueil</a></li>
+        <li><a href="page.php.html" class="page-scroll">Nos services</a></li>
+        <li><a href="#textavantform" class="page-scroll">Contact</a></li>
+      </ul>        
+          <!--search form-->         
+          <!-- <form method="get" action="/search" id="search">
+            <input name="q" type="text" size="40" placeholder="Search..." />
+          </form> -->
+          <!--/search form--> 
+          
+           <nav class="bottom-nav">
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </nav>
+          
+          <ul class="social-link">
+          <li><a href="https://twitter.com/jwcorp_"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://www.linkedin.com/company/jwcorp/ "><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+<script>
+const temp = document.getElementById('nav-top');
+const burger = document.getElementById('nav-icon')
+burger.addEventListener('click',clicked=>{
+  const bool = setTimeout(temp.classList.toggle('nav-top-clicked'), 50000) ;
+  if (bool == true) {
+    setTimeout(temp.classList.remove('nav-top'), 5000) ;
+  } else{
+    setTimeout(temp.classList.add('nav-top'),5000)
+    console.log('clicked');
+  }
+  
+} );
+</script>
+<!-- banner Page
+    ==========================================-->
+<section id="home-banner" class="leviolet">
+  <div class="content">
+    <div class="container" data-wow-duration="1s"> <span class="wow fadeIn"></span>
+      <h1 class="wow fadeInUp">Accompagner <span>aujourd'hui</span> pour la décentralisation <span>de demain.
+      
+      </span><br> <br>We <span id="typed"></span>.</h1>
+      <!-- Mettre effet dynamique et remplacer régulierement "décentralisation" par "souveraineté"
+      ou autres mots " " 
+    et pour le "Build" changer dynamiquement par "create" ou d'autres mots -->
+    </div>
+  </div>
+  <div class="arrow bounce"> 
+    <a id="flecheanime" href="#about-us-block"><i class="fa fa-arrow-down fa-2x"></i></a>
+   </div>
+</section>
+
+<section id="fonddecranpage"> <!-- Petit espace de fond d'ecran au dessus du formulaire au niveau du texte -->
+
+<!-- about us Page
+    ==========================================-->
+<section id="about-us-block">
+  <div class="container">
+    <div class="row"> 
+      <!--section-title-->
+      <div class="section-title text-center wow fadeInUp">
+        <h2 id="notremission">Notre mission</h2>
+        <!-- A réfléchir avec Nos missions, Nos Services -->
+        <!-- Bouton sur le côté possible à remettre voir "section-title a" sur css 
+          <a href="page.php">Mission brief</a> -->
+        <p id="equipedepassionnee">
+          Une équipe de passionnés pour vous accompagner sur vos projets Blockchain. 
+          <!-- B -->
+        </p>
+      </div>
+      <!--/section-title-->
+      <div class="clearfix"></div>
+      <!--about features list-->
+      <ul class="about-features wow fadeInUp">
+        <li>
+          <a href="page.php.html#Accompagnement"><i class="fa-solid fa-person-chalkboard"></i> </a>
+          
+          <h5>Conseil, Accompagnement & Intégration</h5>
+          <p>
+            <!-- Nous vous accompagnons sur vos projets blockchain, étudions la faisabilité du projet, développons sur mesure
+            et mettons en production.
+            Une équipe pluridisciplinaire au service de la réussite de vos projets Blockchain. -->
+            Nous mobilisons nos connaissances et nos compétences au service de vos projets Blockchain.
+          </p>
+        </li>
+        <li>
+          <a href="page.php.html#smart-contracts"><i class="fa-solid fa-laptop-code"></i></a>
+          <h5>Développement de Smart-Contracts</h5>
+          <p>
+            <!-- Tokens ERC-20, NFTs ou même ERC1155. Nous sommes votre force de développement pour vos projets Blockchain. -->
+            Sécurisés, optimisés et personalisés, notre équipe développe des smart-contracts adaptés à vos besoins. 
+            </p>
+        </li>
+        <li>
+          <a href="page.php.html#auditservice"><i class="fa-solid fa-clipboard-list"></i></a>
+          <h5>Audit</h5>
+          <p>
+            Vos projets ou vos smart contract audité par nos experts. Nous vous faisons parvenir un rapport détaillé contenant notamment observations et plan d'actions.
+            <!-- Nous auditons vos projets Blockchain ou vos smart-contracts pour identifier les éventuels risques de défaillance du code et/ou du projet. -->
+          </p>
+        </li>
+        <li>
+          <a href="page.php.html#retd"><i class="fa-solid fa-flask"></i></a>
+          <h5>R&D</h5>
+          <p>
+            <!-- Nous effectuons de la veille technologique et expérimentons les nouvelles technologies autour
+            de la Blockchain (Lightning Network, ETH 2.0, SBTs...). 
+          
+          Nous etudions les differente nouvelles technologie créons des cas d'usage  -->
+          Nous étudions les différents cas d'usage lié aux nouvelles technologies expérimentales autour de la Blockchain (Lightning Network, ETH 2.0, SBTs...).
+        </p>
+        </li>
+      </ul>
+      <section id="home-services-block"> 
+        <div class="container">
+          <div class="row wow fadeInUp">
+            <a href="page.php.html">en savoir +</a> </div>
+        </div>
+      </section>
+
+      <!--/about features list--> 
+    </div>
+  </div>
+</section>
+
+<!-- contact us Page
+    ==========================================-->
+<section id="home-contact-block"> 
+  <div class="container">
+    <div class="row wow fadeInUp">
+      <p>
+        <strong class="souhaitezensavoirplus">
+          Vous souhaitez en savoir plus ?
+        </strong>
+         <br>
+        Envoyez-nous un message afin de commencer à discuter 
+        autour de votre projet.
+        <!-- Notre équipe vous accompagne étape par étape
+        avec des solutions adaptées à vos besoins. -->
+      </p>
+      <a href="#textavantform">Contactez-nous</a> </div>
+  </div>
+</section>
+<!-- the process block
+    ==========================================-->
+<div id="space-process-block"></div>
+<section id="process-block">
+  <div class="container">
+
+    <div class="row responsive390"> <!-- précédemment classe "row" à mettre si problème -->
+      <!--section-title-->
+      <div class="section-title text-center wow fadeInUp">
+        <h2 id="notreequipe">Nos valeurs</h2>
+      </div>
+      <!--/section-title--> 
+      <!--process tab-->
+      <div> 
+
+        <!--/tab nav--> 
+        <!--tab container-->
+        <div class="tab-content"> 
+          
+          <!--tab nav item 1-->
+          <div id="concept" class="tab-pane active">
+            <div class="col-md-7 process-content">
+              <h6>Parlons <span id="parlonstech"></span></h6>
+                <p>
+                  Véritables passionnés, nous construisons nos compétences autour de la Blockchain depuis 2017. La désintermédiation des services financiers, la décentralisation de la monnaie, une gouvernance "trustless", des règles
+                  publiques et vérifiables par tous sont les notions qui nous ont poussés à faire de cette passion notre métier, notre expertise.
+                  Une nouvelle économie numérique se bâtit aujourd'hui, nous avons la volonté de participer activement à sa réalisation c'est pourquoi depuis le <strong>04/03/2021</strong> nous avons lancer la JW Corp.
+                  <!-- Le milieu de la blockchain est un domaine qui évolue à grande vitesse et les usages se multiplient c’est pourquoi nous avons décidé de lancer la JW Corp le <strong> 04/03/2021 </strong>.  -->
+                </p>
+            </div>
+            <!--/tab content-->             
+          </div>
+          <!--/tab nav item 1--> 
+          
+          <!--tab nav item 2-->     
+          </div>
+          <!--/tab nav item 4--> 		  
+        </div>
+        <!--/tab container--> 
+        
+      </div>
+      <!--\process tab--> 
+    </div>
+  
+</section>
+<!-- TEXTE ET FORMULAIRE  -->
+
+  <section id="" class="levraitextavantform">
+    <div id="" class="jsAnimation containerOfcontaintainerSize">
+      <div id="" class="containerOftextavantform">
+        <span id="textavantform">
+          Vous souhaitez prendre contact ? Vous avez un projet Blockchain, un besoin d'accompagnement, de développement ? Un retour à nous faire ? <br><br> Laissez-nous votre message nous reviendrons vers vous au plus vite !
+      <br><br><br>
+      </span>
+      </div>
+    </div>
+    
+  </section>
+  
+  <div class="spaces"></div>
+
+  <section class="texteuh">
+  <div class="deuxieme">
+      <!-- <span> -->
+        
+      <div class="login-box">
+        <h2 id="formulairedecontact">CONTACT</h2>
+        <form method="post">
+          <div class="user-box">
+            <input id="leEmail" type="text" name="Email" required="" placeholder="">
+            <label for="leEmail">Email</label>
+          </div>
+          <div class="user-box">
+            <textarea id="votremessage" name="Message" type="text" placeholder="" required=""></textarea>
+            <label for="votremessage">Votre message</label>
+          </div>
+          <button type="text" name="envoyer" id="police-submit">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Envoyer</button>
+          <!-- <a href="" type="submit" id="police-submit" name="envoyer">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Envoyer
+          </a> -->
+        </form>
+              </div>
+          
+  </div>
+</section>
+<!-- google maps -->
+<p id="googlephrase">
+  Venez nous rencontrer dans nos locaux à La Défense (uniquement sur RDV).
+</p>
+<div class="map-responsive">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.4020133445424!2d2.2475172158606496!3d48.8886752065276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665ee25d21b01%3A0xc15a3b519b7f243a!2sJW%20Corp!5e0!3m2!1sfr!2sfr!4v1654658142857!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+
+</section> <!-- Section fermante pour la toute premiere celle pour background color toute la page -->
+<!-- ====================== FOOTER ================================ -->
+<footer>
+  <div id="footer-left">
+      <div id="footer-text-left-container">
+          <p id="footer-text-left">
+              Tour CB21 - La Défense <br>
+              16 Place de l'iris <br>
+              92400 Courbevoie, France <br>
+              <span id="footer-copyright">© 2022 <a href="index.htm">JW Corp</a>. All rights reserved</span>
+          </p>
+      </div>
+  </div>
+  <div id="footer-center">
+      <div id="footer-logo-container">
+          <img src="img/jwlogosolutionblanc.svg" id="footer-logo">
+      </div>
+      <div id="footer-center-space"></div>
+      <div id="footer-social-network-container">   
+          <div id="footer-twitter"><a href="https://twitter.com/jwcorp_" class="footer-social-network"><i class="fa fa-twitter"></i></a></div>
+          <div id="footer-linkedin"><a href="https://www.linkedin.com/company/jwcorp/ " class="footer-social-network"><i class="fa fa-linkedin"></i></a></div>
+      </div>
+  </div>
+  <div id="footer-right">
+      <div id="footer-text-right-container">
+          <p id="footer-text-right">
+              <span id="footer-tel">
+                  Tél: <a href="tel:06 18 28 62 67" class="footer-right-hover">06 18 28 62 67</a> /<a href="tel:07 70 07 84 84" class="footer-right-hover"> 07 70 07 84 84</a> 
+              </span>
+              <span id="footer-right-space"></span>
+              <span class="footer-email">
+                  Email: <a href="mailto: contact@jwcorp.fr" class="footer-right-hover">contact@jwcorp.fr</a> 
+              </span>
+          </p>
+      </div>
+  </div>
+</footer>
+
+<!-- Typed Script pour les mots landing page voir class: .typedscript -->
+
+
+
+<script>
+  var typed =new Typed('#typed',
+  {
+    strings: [ "write code","build", "make your projects possible"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop:true,
+    backDelay: 3000,
+  })
+</script>
+<!-- ===== SCRIPT NOTRE EQUIPE ===== -->
+<script>
+  var typed =new Typed('#parlonstech', 
+  {
+    strings: [  "transformation numérique","Blockchain","Bitcoin","smart-contracts", "cryptos"],
+    typeSpeed: 100,
+    backSpeed: 50,
+    loop:true,
+    backDelay: 3000,
+  })
+</script>
+<!-- ===== Animation sur ancre, redirection lente -- Pour les 4 services -- ===== -->
+<script>
+  $(function() {
+    /**
+    * Smooth scrolling to page anchor on click
+    **/
+    $("a[href*='#']:not([href='#textavantform'])").click(function() {
+        if (
+            location.hostname == this.hostname
+            && this.pathname.replace(/^\//,"") == location.pathname.replace(/^\//,"")
+        ) {
+            var anchor = $(this.hash);
+            anchor = anchor.length ? anchor : $("[name=" + this.hash.slice(1) +"]");
+            if ( anchor.length ) {
+                $("html, body").animate( { scrollTop: anchor.offset().top }, 2500);
+            }
+        }
+    });
+});
+</script>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script src="js/owl.carousel.js"></script> 
+<script src="js/jquery.waypoints.min.js"></script> 
+<!-- Custom Javascripts
+    ================================================== --> 
+<script type="text/javascript" src="js/main.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+</script> 
+<script>
+new WOW().init();
+</script>
+</section>
+</body>
+</html>
